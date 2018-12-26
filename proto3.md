@@ -1,5 +1,5 @@
 原文地址：[Protocol Buffers proto3](https://developers.google.com/protocol-buffers/docs/proto3)  
-[toc]
+[toc]  
 本指南讲述如何使用 protocol buffer 语言来构造 portocol buffer数据。包括 `.proto` 文件语法和如何从`.proto`文件生成数据访问类。它涵盖了`protocol buffers`语言的**proto3**版本:有关旧的**proto2**语法的信息，请参阅[proto2语言指南](https://developers.google.com/protocol-buffers/docs/proto)。  
 # 定义消息类型  
 首先让我们看一个非常简单的例子。假设您想定义一个搜索请求消息格式，其中每个搜索请求都有一个查询字符串、您感兴趣的结果的特定页面以及每个页面的一些结果。下面是用于定义消息类型的`.proto`文件。
